@@ -11,15 +11,15 @@ import java.util.Random;
 public class Music {
     public File getMusic() {
         String[] music = new String[9];
-        music[0] = "D:\\Java\\Zveri\\1.mp3";
-        music[1] = "D:\\Java\\Zveri\\2.mp3";
-        music[2] = "D:\\Java\\Zveri\\3.mp3";
-        music[3] = "D:\\Java\\Zveri\\4.mp3";
-        music[4] = "D:\\Java\\Zveri\\5.mp3";
-        music[5] = "D:\\Java\\Zveri\\6.mp3";
-        music[6] = "D:\\Java\\Zveri\\7.mp3";
-        music[7] = "D:\\Java\\Zveri\\8.mp3";
-        music[8] = "D:\\Java\\Zveri\\9.mp3";
+        music[0] = "music\\1.mp3";
+        music[1] = "music\\2.mp3";
+        music[2] = "music\\3.mp3";
+        music[3] = "music\\4.mp3";
+        music[4] = "music\\5.mp3";
+        music[5] = "music\\6.mp3";
+        music[6] = "music\\7.mp3";
+        music[7] = "music\\8.mp3";
+        music[8] = "music\\9.mp3";
 
         int l =(int)  (Math.random()*music.length);
         String music1 = music[l];
@@ -27,7 +27,7 @@ public class Music {
         return file;
     }
     public File getPhoto(){
-        File file = new File("D:\\Java\\Zveri\\Photo\\1.png");
+        File file = new File("photo\\1.png");
         return file;
     }
 
