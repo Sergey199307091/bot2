@@ -66,7 +66,7 @@ public class App2 extends TelegramLongPollingBot {
     public void sendAudio(Message message,File file) {
         SendAnimation sendAnimation = new SendAnimation();
         sendAnimation.setChatId(message.getChatId().toString());
-        File file1 = new File("animation\\1.gif");
+        File file1 = new File("animation/1.gif");
         sendAnimation.setAnimation(file1);
         SendMessage sendMessage = new SendMessage();
         sendMessage.setChatId(message.getChatId().toString());
